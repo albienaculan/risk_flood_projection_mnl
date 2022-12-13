@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d19" for="edge" attr.name="bridge" attr.type="string"/>
+<key id="d18" for="edge" attr.name="maxspeed" attr.type="string"/>
+<key id="d17" for="edge" attr.name="grade_abs" attr.type="string"/>
+<key id="d16" for="edge" attr.name="grade" attr.type="string"/>
+<key id="d15" for="edge" attr.name="geometry" attr.type="string"/>
+<key id="d14" for="edge" attr.name="length" attr.type="string"/>
+<key id="d13" for="edge" attr.name="reversed" attr.type="string"/>
+<key id="d12" for="edge" attr.name="highway" attr.type="string"/>
+<key id="d11" for="edge" attr.name="name" attr.type="string"/>
+<key id="d10" for="edge" attr.name="lanes" attr.type="string"/>
+<key id="d9" for="edge" attr.name="oneway" attr.type="string"/>
+<key id="d8" for="edge" attr.name="osmid" attr.type="string"/>
+<key id="d7" for="node" attr.name="elevation" attr.type="string"/>
+<key id="d6" for="node" attr.name="street_count" attr.type="string"/>
+<key id="d5" for="node" attr.name="x" attr.type="string"/>
+<key id="d4" for="node" attr.name="y" attr.type="string"/>
+<key id="d3" for="graph" attr.name="simplified" attr.type="string"/>
+<key id="d2" for="graph" attr.name="crs" attr.type="string"/>
+<key id="d1" for="graph" attr.name="created_with" attr.type="string"/>
+<key id="d0" for="graph" attr.name="created_date" attr.type="string"/>
+<graph edgedefault="directed"><data key="d0">2022-12-14 01:16:58</data>
+<data key="d1">OSMnx 1.2.2</data>
+<data key="d2">epsg:4326</data>
+<data key="d3">True</data>
+<node id="25250076">
+  <data key="d4">14.5984433</data>
+  <data key="d5">120.9806012</data>
+  <data key="d6">4</data>
+  <data key="d7">1.975</data>
+</node>
+<node id="159474601">
+  <data key="d4">14.5974478</data>
+  <data key="d5">120.9793015</data>
+  <data key="d6">3</data>
+  <data key="d7">3.665</data>
+</node>
+<node id="163755188">
+  <data key="d4">14.5981127</data>
+  <data key="d5">120.9788602</data>
+  <data key="d6">4</data>
+  <data key="d7">3.843</data>
+</node>
+<node id="165756268">
+  <data key="d4">14.5979984</data>
+  <data key="d5">120.979839</data>
+  <data key="d6">3</data>
+  <data key="d7">3.977</data>
+</node>
+<node id="400781067">
+  <data key="d4">14.5985637</data>
+  <data key="d5">120.9793223</data>
+  <data key="d6">4</data>
+  <data key="d7">4.0</data>
+</node>
+<node id="410553129">
+  <data key="d4">14.5983581</data>
+  <data key="d5">120.981605</data>
+  <data key="d6">3</data>
+  <data key="d7">1.554</data>
+</node>
+<node id="6887715891">
+  <data key="d4">14.5984352</data>
+  <data key="d5">120.9807083</data>
+  <data key="d6">5</data>
+  <data key="d7">2.08</data>
+</node>
+<node id="8373364289">
+  <data key="d4">14.5982822</data>
+  <data key="d5">120.980052</data>
+  <data key="d6">3</data>
+  <data key="d7">3.896</data>
+</node>
+<edge source="25250076" target="6887715891" id="0">
+  <data key="d8">[50811688, 50811689, 50811693]</data>
+  <data key="d9">True</data>
+  <data key="d10">1</data>
+  <data key="d11">MacArthur Bridge Service Road</data>
+  <data key="d12">tertiary</data>
+  <data key="d13">False</data>
+  <data key="d14">238.06699999999998</data>
+  <data key="d15">LINESTRING (120.9806012 14.5984433, 120.9805724 14.5983045, 120.9804846 14.5978464, 120.980428 14.5975196, 120.9804269 14.5975043, 120.9804291 14.5974913, 120.9804369 14.5974817, 120.9805842 14.5974422, 120.9805971 14.597447, 120.9806039 14.5974608, 120.9806068 14.597477, 120.98073 14.5982817, 120.9807083 14.5984352)</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.0</data>
+</edge>
+<edge source="159474601" target="163755188" id="0">
+  <data key="d8">161414138</data>
+  <data key="d9">True</data>
+  <data key="d10">2</data>
+  <data key="d11">Tomas Pinpin Street</data>
+  <data key="d12">unclassified</data>
+  <data key="d18">30</data>
+  <data key="d13">False</data>
+  <data key="d14">87.87</data>
+  <data key="d16">0.002</data>
+  <data key="d17">0.002</data>
+</edge>
+<edge source="159474601" target="165756268" id="0">
+  <data key="d8">369832203</data>
+  <data key="d9">True</data>
+  <data key="d10">2</data>
+  <data key="d11">Muelle del Banco Nacional</data>
+  <data key="d12">tertiary</data>
+  <data key="d18">40</data>
+  <data key="d13">False</data>
+  <data key="d14">85.381</data>
+  <data key="d15">LINESTRING (120.9793015 14.5974478, 120.9795247 14.5975916, 120.9795867 14.5976584, 120.979839 14.5979984)</data>
+  <data key="d16">0.004</data>
+  <data key="d17">0.004</data>
+</edge>
+<edge source="163755188" target="400781067" id="0">
+  <data key="d8">319521031</data>
+  <data key="d9">True</data>
+  <data key="d10">2</data>
+  <data key="d11">Escolta Street</data>
+  <data key="d12">tertiary</data>
+  <data key="d18">30</data>
+  <data key="d13">False</data>
+  <data key="d14">70.622</data>
+  <data key="d16">0.002</data>
+  <data key="d17">0.002</data>
+</edge>
+<edge source="165756268" target="8373364289" id="0">
+  <data key="d8">369832203</data>
+  <data key="d9">True</data>
+  <data key="d10">2</data>
+  <data key="d11">Muelle del Banco Nacional</data>
+  <data key="d12">tertiary</data>
+  <data key="d18">40</data>
+  <data key="d13">False</data>
+  <data key="d14">39.002</data>
+  <data key="d16">-0.002</data>
+  <data key="d17">0.002</data>
+</edge>
+<edge source="400781067" target="165756268" id="0">
+  <data key="d8">901367682</data>
+  <data key="d9">True</data>
+  <data key="d10">2</data>
+  <data key="d11">Burke Street</data>
+  <data key="d12">unclassified</data>
+  <data key="d18">30</data>
+  <data key="d13">False</data>
+  <data key="d14">83.92</data>
+  <data key="d16">-0.0</data>
+  <data key="d17">0.0</data>
+</edge>
+<edge source="6887715891" target="410553129" id="0">
+  <data key="d8">16081644</data>
+  <data key="d9">True</data>
+  <data key="d10">2</data>
+  <data key="d11">Carlos Palanca Street</data>
+  <data key="d12">tertiary</data>
+  <data key="d18">40</data>
+  <data key="d13">False</data>
+  <data key="d14">96.97600000000001</data>
+  <data key="d15">LINESTRING (120.9807083 14.5984352, 120.9808394 14.598428, 120.9812068 14.5984101, 120.9814546 14.5983843, 120.981605 14.5983581)</data>
+  <data key="d16">-0.005</data>
+  <data key="d17">0.005</data>
+</edge>
+<edge source="8373364289" target="25250076" id="0">
+  <data key="d8">[28394104, 161414170, 369832203]</data>
+  <data key="d9">True</data>
+  <data key="d10">2</data>
+  <data key="d11">['Muelle del Banco Nacional', 'Muelle del Banco National Bridge']</data>
+  <data key="d12">tertiary</data>
+  <data key="d18">40</data>
+  <data key="d13">False</data>
+  <data key="d14">63.086</data>
+  <data key="d19">yes</data>
+  <data key="d15">LINESTRING (120.980052 14.5982822, 120.9800892 14.5982895, 120.9802509 14.5982888, 120.980257 14.59829, 120.9803024 14.5982986, 120.9806012 14.5984433)</data>
+  <data key="d16">-0.03</data>
+  <data key="d17">0.03</data>
+</edge>
+</graph></graphml>

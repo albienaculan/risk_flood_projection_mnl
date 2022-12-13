@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d16" for="edge" attr.name="grade_abs" attr.type="string"/>
+<key id="d15" for="edge" attr.name="grade" attr.type="string"/>
+<key id="d14" for="edge" attr.name="length" attr.type="string"/>
+<key id="d13" for="edge" attr.name="reversed" attr.type="string"/>
+<key id="d12" for="edge" attr.name="oneway" attr.type="string"/>
+<key id="d11" for="edge" attr.name="highway" attr.type="string"/>
+<key id="d10" for="edge" attr.name="name" attr.type="string"/>
+<key id="d9" for="edge" attr.name="lanes" attr.type="string"/>
+<key id="d8" for="edge" attr.name="osmid" attr.type="string"/>
+<key id="d7" for="node" attr.name="elevation" attr.type="string"/>
+<key id="d6" for="node" attr.name="street_count" attr.type="string"/>
+<key id="d5" for="node" attr.name="x" attr.type="string"/>
+<key id="d4" for="node" attr.name="y" attr.type="string"/>
+<key id="d3" for="graph" attr.name="simplified" attr.type="string"/>
+<key id="d2" for="graph" attr.name="crs" attr.type="string"/>
+<key id="d1" for="graph" attr.name="created_with" attr.type="string"/>
+<key id="d0" for="graph" attr.name="created_date" attr.type="string"/>
+<graph edgedefault="directed"><data key="d0">2022-12-14 03:49:13</data>
+<data key="d1">OSMnx 1.2.2</data>
+<data key="d2">epsg:4326</data>
+<data key="d3">True</data>
+<node id="660582754">
+  <data key="d4">14.6232974</data>
+  <data key="d5">120.9620197</data>
+  <data key="d6">3</data>
+  <data key="d7">3.585</data>
+</node>
+<node id="660582760">
+  <data key="d4">14.6235103</data>
+  <data key="d5">120.9619045</data>
+  <data key="d6">4</data>
+  <data key="d7">3.528</data>
+</node>
+<node id="660582774">
+  <data key="d4">14.62249</data>
+  <data key="d5">120.9621165</data>
+  <data key="d6">3</data>
+  <data key="d7">3.92</data>
+</node>
+<node id="660582784">
+  <data key="d4">14.6229353</data>
+  <data key="d5">120.9621104</data>
+  <data key="d6">3</data>
+  <data key="d7">3.978</data>
+</node>
+<node id="660582785">
+  <data key="d4">14.6228043</data>
+  <data key="d5">120.9611336</data>
+  <data key="d6">3</data>
+  <data key="d7">3.375</data>
+</node>
+<node id="660582786">
+  <data key="d4">14.6230084</data>
+  <data key="d5">120.9621032</data>
+  <data key="d6">3</data>
+  <data key="d7">3.962</data>
+</node>
+<node id="1399440643">
+  <data key="d4">14.6231534</data>
+  <data key="d5">120.9620742</data>
+  <data key="d6">3</data>
+  <data key="d7">3.745</data>
+</node>
+<node id="1754293615">
+  <data key="d4">14.6226943</data>
+  <data key="d5">120.9621264</data>
+  <data key="d6">3</data>
+  <data key="d7">3.926</data>
+</node>
+<node id="7353387199">
+  <data key="d4">14.6228682</data>
+  <data key="d5">120.9616261</data>
+  <data key="d6">4</data>
+  <data key="d7">3.969</data>
+</node>
+<node id="8312570905">
+  <data key="d4">14.6233281</data>
+  <data key="d5">120.9615425</data>
+  <data key="d6">3</data>
+  <data key="d7">3.303</data>
+</node>
+<node id="10023670181">
+  <data key="d4">14.6231774</data>
+  <data key="d5">120.9618578</data>
+  <data key="d6">1</data>
+  <data key="d7">3.453</data>
+</node>
+<node id="10023670182">
+  <data key="d4">14.6232486</data>
+  <data key="d5">120.9620382</data>
+  <data key="d6">3</data>
+  <data key="d7">3.617</data>
+</node>
+<edge source="660582754" target="660582760" id="0">
+  <data key="d8">478775657</data>
+  <data key="d9">2</data>
+  <data key="d10">J. P. Rizal Street</data>
+  <data key="d11">tertiary</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+  <data key="d14">26.722</data>
+  <data key="d15">-0.002</data>
+  <data key="d16">0.002</data>
+</edge>
+<edge source="660582754" target="10023670182" id="0">
+  <data key="d8">478775657</data>
+  <data key="d9">2</data>
+  <data key="d10">J. P. Rizal Street</data>
+  <data key="d11">tertiary</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+  <data key="d14">5.78</data>
+  <data key="d15">0.006</data>
+  <data key="d16">0.006</data>
+</edge>
+<edge source="660582760" target="8312570905" id="0">
+  <data key="d8">14117496</data>
+  <data key="d9">2</data>
+  <data key="d10">E. Jacinto Street</data>
+  <data key="d11">tertiary</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+  <data key="d14">43.903</data>
+  <data key="d15">-0.005</data>
+  <data key="d16">0.005</data>
+</edge>
+<edge source="660582760" target="660582754" id="0">
+  <data key="d8">478775657</data>
+  <data key="d9">2</data>
+  <data key="d10">J. P. Rizal Street</data>
+  <data key="d11">tertiary</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+  <data key="d14">26.722</data>
+  <data key="d15">0.002</data>
+  <data key="d16">0.002</data>
+</edge>
+<edge source="660582774" target="1754293615" id="0">
+  <data key="d8">478775657</data>
+  <data key="d9">2</data>
+  <data key="d10">J. P. Rizal Street</data>
+  <data key="d11">tertiary</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+  <data key="d14">22.742</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+</edge>
+<edge source="660582784" target="7353387199" id="0">
+  <data key="d8">51761666</data>
+  <data key="d10">Santa Rita Street</data>
+  <data key="d11">residential</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+  <data key="d14">52.639</data>
+  <data key="d15">-0.0</data>
+  <data key="d16">0.0</data>
+</edge>
+<edge source="660582784" target="660582786" id="0">
+  <data key="d8">478775657</data>
+  <data key="d9">2</data>
+  <data key="d10">J. P. Rizal Street</data>
+  <data key="d11">tertiary</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+  <data key="d14">8.165</data>
+  <data key="d15">-0.002</data>
+  <data key="d16">0.002</data>
+</edge>
+<edge source="660582784" target="1754293615" id="0">
+  <data key="d8">478775657</data>
+  <data key="d9">2</data>
+  <data key="d10">J. P. Rizal Street</data>
+  <data key="d11">tertiary</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+  <data key="d14">26.853</data>
+  <data key="d15">-0.002</data>
+  <data key="d16">0.002</data>
+</edge>
+<edge source="660582785" target="7353387199" id="0">
+  <data key="d8">51761666</data>
+  <data key="d10">Santa Rita Street</data>
+  <data key="d11">residential</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+  <data key="d14">53.464</data>
+  <data key="d15">0.011</data>
+  <data key="d16">0.011</data>
+</edge>
+<edge source="660582786" target="1399440643" id="0">
+  <data key="d8">478775657</data>
+  <data key="d9">2</data>
+  <data key="d10">J. P. Rizal Street</data>
+  <data key="d11">tertiary</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+  <data key="d14">16.422</data>
+  <data key="d15">-0.013</data>
+  <data key="d16">0.013</data>
+</edge>
+<edge source="660582786" target="660582784" id="0">
+  <data key="d8">478775657</data>
+  <data key="d9">2</data>
+  <data key="d10">J. P. Rizal Street</data>
+  <data key="d11">tertiary</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+  <data key="d14">8.165</data>
+  <data key="d15">0.002</data>
+  <data key="d16">0.002</data>
+</edge>
+<edge source="1399440643" target="10023670182" id="0">
+  <data key="d8">478775657</data>
+  <data key="d9">2</data>
+  <data key="d10">J. P. Rizal Street</data>
+  <data key="d11">tertiary</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+  <data key="d14">11.272</data>
+  <data key="d15">-0.011</data>
+  <data key="d16">0.011</data>
+</edge>
+<edge source="1399440643" target="660582786" id="0">
+  <data key="d8">478775657</data>
+  <data key="d9">2</data>
+  <data key="d10">J. P. Rizal Street</data>
+  <data key="d11">tertiary</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+  <data key="d14">16.422</data>
+  <data key="d15">0.013</data>
+  <data key="d16">0.013</data>
+</edge>
+<edge source="1754293615" target="660582784" id="0">
+  <data key="d8">478775657</data>
+  <data key="d9">2</data>
+  <data key="d10">J. P. Rizal Street</data>
+  <data key="d11">tertiary</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+  <data key="d14">26.853</data>
+  <data key="d15">0.002</data>
+  <data key="d16">0.002</data>
+</edge>
+<edge source="1754293615" target="660582774" id="0">
+  <data key="d8">478775657</data>
+  <data key="d9">2</data>
+  <data key="d10">J. P. Rizal Street</data>
+  <data key="d11">tertiary</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+  <data key="d14">22.742</data>
+  <data key="d15">-0.0</data>
+  <data key="d16">0.0</data>
+</edge>
+<edge source="7353387199" target="660582785" id="0">
+  <data key="d8">51761666</data>
+  <data key="d10">Santa Rita Street</data>
+  <data key="d11">residential</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+  <data key="d14">53.464</data>
+  <data key="d15">-0.011</data>
+  <data key="d16">0.011</data>
+</edge>
+<edge source="7353387199" target="660582784" id="0">
+  <data key="d8">51761666</data>
+  <data key="d10">Santa Rita Street</data>
+  <data key="d11">residential</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+  <data key="d14">52.639</data>
+  <data key="d15">0.0</data>
+  <data key="d16">0.0</data>
+</edge>
+<edge source="7353387199" target="8312570905" id="0">
+  <data key="d8">786437222</data>
+  <data key="d10">Humabon Street</data>
+  <data key="d11">residential</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+  <data key="d14">51.924</data>
+  <data key="d15">-0.013</data>
+  <data key="d16">0.013</data>
+</edge>
+<edge source="8312570905" target="660582760" id="0">
+  <data key="d8">14117496</data>
+  <data key="d9">2</data>
+  <data key="d10">E. Jacinto Street</data>
+  <data key="d11">tertiary</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+  <data key="d14">43.903</data>
+  <data key="d15">0.005</data>
+  <data key="d16">0.005</data>
+</edge>
+<edge source="8312570905" target="7353387199" id="0">
+  <data key="d8">786437222</data>
+  <data key="d10">Humabon Street</data>
+  <data key="d11">residential</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+  <data key="d14">51.924</data>
+  <data key="d15">0.013</data>
+  <data key="d16">0.013</data>
+</edge>
+<edge source="10023670181" target="10023670182" id="0">
+  <data key="d8">1094432933</data>
+  <data key="d10">Santa Ana</data>
+  <data key="d11">residential</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+  <data key="d14">20.962</data>
+  <data key="d15">0.008</data>
+  <data key="d16">0.008</data>
+</edge>
+<edge source="10023670182" target="660582754" id="0">
+  <data key="d8">478775657</data>
+  <data key="d9">2</data>
+  <data key="d10">J. P. Rizal Street</data>
+  <data key="d11">tertiary</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+  <data key="d14">5.78</data>
+  <data key="d15">-0.006</data>
+  <data key="d16">0.006</data>
+</edge>
+<edge source="10023670182" target="1399440643" id="0">
+  <data key="d8">478775657</data>
+  <data key="d9">2</data>
+  <data key="d10">J. P. Rizal Street</data>
+  <data key="d11">tertiary</data>
+  <data key="d12">False</data>
+  <data key="d13">True</data>
+  <data key="d14">11.272</data>
+  <data key="d15">0.011</data>
+  <data key="d16">0.011</data>
+</edge>
+<edge source="10023670182" target="10023670181" id="0">
+  <data key="d8">1094432933</data>
+  <data key="d10">Santa Ana</data>
+  <data key="d11">residential</data>
+  <data key="d12">False</data>
+  <data key="d13">False</data>
+  <data key="d14">20.962</data>
+  <data key="d15">-0.008</data>
+  <data key="d16">0.008</data>
+</edge>
+</graph></graphml>

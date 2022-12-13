@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d19" for="edge" attr.name="geometry" attr.type="string"/>
+<key id="d18" for="edge" attr.name="grade_abs" attr.type="string"/>
+<key id="d17" for="edge" attr.name="grade" attr.type="string"/>
+<key id="d16" for="edge" attr.name="length" attr.type="string"/>
+<key id="d15" for="edge" attr.name="reversed" attr.type="string"/>
+<key id="d14" for="edge" attr.name="oneway" attr.type="string"/>
+<key id="d13" for="edge" attr.name="width" attr.type="string"/>
+<key id="d12" for="edge" attr.name="maxspeed" attr.type="string"/>
+<key id="d11" for="edge" attr.name="highway" attr.type="string"/>
+<key id="d10" for="edge" attr.name="name" attr.type="string"/>
+<key id="d9" for="edge" attr.name="lanes" attr.type="string"/>
+<key id="d8" for="edge" attr.name="osmid" attr.type="string"/>
+<key id="d7" for="node" attr.name="elevation" attr.type="string"/>
+<key id="d6" for="node" attr.name="street_count" attr.type="string"/>
+<key id="d5" for="node" attr.name="x" attr.type="string"/>
+<key id="d4" for="node" attr.name="y" attr.type="string"/>
+<key id="d3" for="graph" attr.name="simplified" attr.type="string"/>
+<key id="d2" for="graph" attr.name="crs" attr.type="string"/>
+<key id="d1" for="graph" attr.name="created_with" attr.type="string"/>
+<key id="d0" for="graph" attr.name="created_date" attr.type="string"/>
+<graph edgedefault="directed"><data key="d0">2022-12-14 01:26:07</data>
+<data key="d1">OSMnx 1.2.2</data>
+<data key="d2">epsg:4326</data>
+<data key="d3">True</data>
+<node id="339268720">
+  <data key="d4">14.6258831</data>
+  <data key="d5">120.9810057</data>
+  <data key="d6">3</data>
+  <data key="d7">4.0</data>
+</node>
+<node id="1483494944">
+  <data key="d4">14.6256031</data>
+  <data key="d5">120.9811151</data>
+  <data key="d6">3</data>
+  <data key="d7">3.433</data>
+</node>
+<node id="2270458419">
+  <data key="d4">14.6255084</data>
+  <data key="d5">120.9811389</data>
+  <data key="d6">3</data>
+  <data key="d7">3.428</data>
+</node>
+<node id="2270458420">
+  <data key="d4">14.625697</data>
+  <data key="d5">120.9817103</data>
+  <data key="d6">1</data>
+  <data key="d7">4.0</data>
+</node>
+<node id="8313765736">
+  <data key="d4">14.6256059</data>
+  <data key="d5">120.9806876</data>
+  <data key="d6">3</data>
+  <data key="d7">3.862</data>
+</node>
+<node id="9976714749">
+  <data key="d4">14.6256112</data>
+  <data key="d5">120.980302</data>
+  <data key="d6">1</data>
+  <data key="d7">3.981</data>
+</node>
+<edge source="339268720" target="1483494944" id="0">
+  <data key="d8">14096627</data>
+  <data key="d9">2</data>
+  <data key="d10">Severino Reyes Street</data>
+  <data key="d11">residential</data>
+  <data key="d12">30</data>
+  <data key="d13">11.1</data>
+  <data key="d14">False</data>
+  <data key="d15">True</data>
+  <data key="d16">33.285</data>
+  <data key="d17">-0.017</data>
+  <data key="d18">0.017</data>
+</edge>
+<edge source="1483494944" target="339268720" id="0">
+  <data key="d8">14096627</data>
+  <data key="d9">2</data>
+  <data key="d10">Severino Reyes Street</data>
+  <data key="d11">residential</data>
+  <data key="d12">30</data>
+  <data key="d13">11.1</data>
+  <data key="d14">False</data>
+  <data key="d15">False</data>
+  <data key="d16">33.285</data>
+  <data key="d17">0.017</data>
+  <data key="d18">0.017</data>
+</edge>
+<edge source="1483494944" target="2270458419" id="0">
+  <data key="d8">14096627</data>
+  <data key="d9">2</data>
+  <data key="d10">Severino Reyes Street</data>
+  <data key="d11">residential</data>
+  <data key="d12">30</data>
+  <data key="d13">11.1</data>
+  <data key="d14">False</data>
+  <data key="d15">True</data>
+  <data key="d16">10.837</data>
+  <data key="d17">-0.0</data>
+  <data key="d18">0.0</data>
+</edge>
+<edge source="1483494944" target="8313765736" id="0">
+  <data key="d8">1089030943</data>
+  <data key="d10">Tecson Street</data>
+  <data key="d11">residential</data>
+  <data key="d14">False</data>
+  <data key="d15">True</data>
+  <data key="d16">45.997</data>
+  <data key="d17">0.009</data>
+  <data key="d18">0.009</data>
+</edge>
+<edge source="2270458419" target="1483494944" id="0">
+  <data key="d8">14096627</data>
+  <data key="d9">2</data>
+  <data key="d10">Severino Reyes Street</data>
+  <data key="d11">residential</data>
+  <data key="d12">30</data>
+  <data key="d13">11.1</data>
+  <data key="d14">False</data>
+  <data key="d15">False</data>
+  <data key="d16">10.837</data>
+  <data key="d17">0.0</data>
+  <data key="d18">0.0</data>
+</edge>
+<edge source="2270458419" target="2270458420" id="0">
+  <data key="d8">217745128</data>
+  <data key="d11">service</data>
+  <data key="d14">False</data>
+  <data key="d15">True</data>
+  <data key="d16">64.95700000000001</data>
+  <data key="d19">LINESTRING (120.9811389 14.6255084, 120.9811778 14.6255212, 120.9817103 14.625697)</data>
+  <data key="d17">0.009</data>
+  <data key="d18">0.009</data>
+</edge>
+<edge source="2270458420" target="2270458419" id="0">
+  <data key="d8">217745128</data>
+  <data key="d11">service</data>
+  <data key="d14">False</data>
+  <data key="d15">False</data>
+  <data key="d16">64.95700000000001</data>
+  <data key="d19">LINESTRING (120.9817103 14.625697, 120.9811778 14.6255212, 120.9811389 14.6255084)</data>
+  <data key="d17">-0.009</data>
+  <data key="d18">0.009</data>
+</edge>
+<edge source="8313765736" target="1483494944" id="0">
+  <data key="d8">1089030943</data>
+  <data key="d10">Tecson Street</data>
+  <data key="d11">residential</data>
+  <data key="d14">False</data>
+  <data key="d15">False</data>
+  <data key="d16">45.997</data>
+  <data key="d17">-0.009</data>
+  <data key="d18">0.009</data>
+</edge>
+<edge source="8313765736" target="9976714749" id="0">
+  <data key="d8">1089030943</data>
+  <data key="d10">Tecson Street</data>
+  <data key="d11">residential</data>
+  <data key="d14">False</data>
+  <data key="d15">True</data>
+  <data key="d16">41.492</data>
+  <data key="d17">0.003</data>
+  <data key="d18">0.003</data>
+</edge>
+<edge source="9976714749" target="8313765736" id="0">
+  <data key="d8">1089030943</data>
+  <data key="d10">Tecson Street</data>
+  <data key="d11">residential</data>
+  <data key="d14">False</data>
+  <data key="d15">False</data>
+  <data key="d16">41.492</data>
+  <data key="d17">-0.003</data>
+  <data key="d18">0.003</data>
+</edge>
+</graph></graphml>

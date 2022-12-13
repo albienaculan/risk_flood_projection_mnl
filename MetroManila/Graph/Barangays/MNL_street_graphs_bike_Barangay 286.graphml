@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d19" for="edge" attr.name="geometry" attr.type="string"/>
+<key id="d18" for="edge" attr.name="grade_abs" attr.type="string"/>
+<key id="d17" for="edge" attr.name="grade" attr.type="string"/>
+<key id="d16" for="edge" attr.name="length" attr.type="string"/>
+<key id="d15" for="edge" attr.name="reversed" attr.type="string"/>
+<key id="d14" for="edge" attr.name="maxspeed" attr.type="string"/>
+<key id="d13" for="edge" attr.name="highway" attr.type="string"/>
+<key id="d12" for="edge" attr.name="name" attr.type="string"/>
+<key id="d11" for="edge" attr.name="ref" attr.type="string"/>
+<key id="d10" for="edge" attr.name="lanes" attr.type="string"/>
+<key id="d9" for="edge" attr.name="oneway" attr.type="string"/>
+<key id="d8" for="edge" attr.name="osmid" attr.type="string"/>
+<key id="d7" for="node" attr.name="elevation" attr.type="string"/>
+<key id="d6" for="node" attr.name="street_count" attr.type="string"/>
+<key id="d5" for="node" attr.name="x" attr.type="string"/>
+<key id="d4" for="node" attr.name="y" attr.type="string"/>
+<key id="d3" for="graph" attr.name="simplified" attr.type="string"/>
+<key id="d2" for="graph" attr.name="crs" attr.type="string"/>
+<key id="d1" for="graph" attr.name="created_with" attr.type="string"/>
+<key id="d0" for="graph" attr.name="created_date" attr.type="string"/>
+<graph edgedefault="directed"><data key="d0">2022-12-14 03:52:26</data>
+<data key="d1">OSMnx 1.2.2</data>
+<data key="d2">epsg:4326</data>
+<data key="d3">True</data>
+<node id="243975826">
+  <data key="d4">14.5977471</data>
+  <data key="d5">120.9660571</data>
+  <data key="d6">3</data>
+  <data key="d7">2.4</data>
+</node>
+<node id="1202535940">
+  <data key="d4">14.5982937</data>
+  <data key="d5">120.9656605</data>
+  <data key="d6">3</data>
+  <data key="d7">1.715</data>
+</node>
+<node id="2953920227">
+  <data key="d4">14.5980958</data>
+  <data key="d5">120.9658519</data>
+  <data key="d6">3</data>
+  <data key="d7">1.614</data>
+</node>
+<node id="8383047717">
+  <data key="d4">14.5971448</data>
+  <data key="d5">120.9660789</data>
+  <data key="d6">1</data>
+  <data key="d7">2.671</data>
+</node>
+<node id="8383047720">
+  <data key="d4">14.596576</data>
+  <data key="d5">120.9662339</data>
+  <data key="d6">3</data>
+  <data key="d7">1.965</data>
+</node>
+<node id="8386156507">
+  <data key="d4">14.5983126</data>
+  <data key="d5">120.9656497</data>
+  <data key="d6">3</data>
+  <data key="d7">1.741</data>
+</node>
+<node id="9800534503">
+  <data key="d4">14.5965692</data>
+  <data key="d5">120.9657966</data>
+  <data key="d6">3</data>
+  <data key="d7">1.524</data>
+</node>
+<node id="9800534504">
+  <data key="d4">14.5967295</data>
+  <data key="d5">120.9656826</data>
+  <data key="d6">3</data>
+  <data key="d7">1.506</data>
+</node>
+<edge source="1202535940" target="2953920227" id="0">
+  <data key="d8">1018619045</data>
+  <data key="d9">True</data>
+  <data key="d10">2</data>
+  <data key="d11">120</data>
+  <data key="d12">Mel Lopez Boulevard</data>
+  <data key="d13">primary</data>
+  <data key="d14">60</data>
+  <data key="d15">False</data>
+  <data key="d16">30.14</data>
+  <data key="d17">-0.003</data>
+  <data key="d18">0.003</data>
+</edge>
+<edge source="2953920227" target="243975826" id="0">
+  <data key="d8">16268613</data>
+  <data key="d9">True</data>
+  <data key="d10">4</data>
+  <data key="d11">120</data>
+  <data key="d12">Mel Lopez Boulevard</data>
+  <data key="d13">trunk</data>
+  <data key="d14">60</data>
+  <data key="d15">False</data>
+  <data key="d16">44.62</data>
+  <data key="d17">0.018</data>
+  <data key="d18">0.018</data>
+</edge>
+<edge source="8383047717" target="8383047720" id="0">
+  <data key="d8">902562122</data>
+  <data key="d13">service</data>
+  <data key="d9">False</data>
+  <data key="d15">True</data>
+  <data key="d16">67.127</data>
+  <data key="d19">LINESTRING (120.9660789 14.5971448, 120.9661795 14.5970072, 120.9661916 14.5969579, 120.9662128 14.5966932, 120.9662339 14.596576)</data>
+  <data key="d17">-0.011</data>
+  <data key="d18">0.011</data>
+</edge>
+<edge source="8383047720" target="9800534503" id="0">
+  <data key="d8">104219261</data>
+  <data key="d10">2</data>
+  <data key="d12">Muelle de la Industria</data>
+  <data key="d13">tertiary</data>
+  <data key="d14">40</data>
+  <data key="d9">False</data>
+  <data key="d15">True</data>
+  <data key="d16">47.062</data>
+  <data key="d17">-0.009</data>
+  <data key="d18">0.009</data>
+</edge>
+<edge source="8383047720" target="8383047717" id="0">
+  <data key="d8">902562122</data>
+  <data key="d13">service</data>
+  <data key="d9">False</data>
+  <data key="d15">False</data>
+  <data key="d16">67.127</data>
+  <data key="d19">LINESTRING (120.9662339 14.596576, 120.9662128 14.5966932, 120.9661916 14.5969579, 120.9661795 14.5970072, 120.9660789 14.5971448)</data>
+  <data key="d17">0.011</data>
+  <data key="d18">0.011</data>
+</edge>
+<edge source="8386156507" target="1202535940" id="0">
+  <data key="d8">289449898</data>
+  <data key="d9">True</data>
+  <data key="d10">2</data>
+  <data key="d11">120</data>
+  <data key="d12">Mel Lopez Boulevard</data>
+  <data key="d13">primary</data>
+  <data key="d14">60</data>
+  <data key="d15">False</data>
+  <data key="d16">2.402</data>
+  <data key="d17">-0.011</data>
+  <data key="d18">0.011</data>
+</edge>
+<edge source="9800534503" target="9800534504" id="0">
+  <data key="d8">22740020</data>
+  <data key="d9">True</data>
+  <data key="d10">2</data>
+  <data key="d12">San Miguel Drive</data>
+  <data key="d13">tertiary</data>
+  <data key="d15">False</data>
+  <data key="d16">21.638</data>
+  <data key="d17">-0.001</data>
+  <data key="d18">0.001</data>
+</edge>
+<edge source="9800534503" target="8383047720" id="0">
+  <data key="d8">104219261</data>
+  <data key="d10">2</data>
+  <data key="d12">Muelle de la Industria</data>
+  <data key="d13">tertiary</data>
+  <data key="d14">40</data>
+  <data key="d9">False</data>
+  <data key="d15">False</data>
+  <data key="d16">47.062</data>
+  <data key="d17">0.009</data>
+  <data key="d18">0.009</data>
+</edge>
+<edge source="9800534504" target="243975826" id="0">
+  <data key="d8">22740020</data>
+  <data key="d9">True</data>
+  <data key="d10">2</data>
+  <data key="d12">San Miguel Drive</data>
+  <data key="d13">tertiary</data>
+  <data key="d15">False</data>
+  <data key="d16">142.72199999999998</data>
+  <data key="d19">LINESTRING (120.9656826 14.5967295, 120.9656759 14.5968391, 120.9656786 14.5971279, 120.9656999 14.5975664, 120.9657383 14.5976431, 120.9657828 14.5977103, 120.9658485 14.5977486, 120.96591 14.5977631, 120.9659873 14.5977673, 120.9660571 14.5977471)</data>
+  <data key="d17">0.006</data>
+  <data key="d18">0.006</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d17" for="edge" attr.name="grade_abs" attr.type="string"/>
+<key id="d16" for="edge" attr.name="grade" attr.type="string"/>
+<key id="d15" for="edge" attr.name="length" attr.type="string"/>
+<key id="d14" for="edge" attr.name="reversed" attr.type="string"/>
+<key id="d13" for="edge" attr.name="maxspeed" attr.type="string"/>
+<key id="d12" for="edge" attr.name="highway" attr.type="string"/>
+<key id="d11" for="edge" attr.name="name" attr.type="string"/>
+<key id="d10" for="edge" attr.name="lanes" attr.type="string"/>
+<key id="d9" for="edge" attr.name="oneway" attr.type="string"/>
+<key id="d8" for="edge" attr.name="osmid" attr.type="string"/>
+<key id="d7" for="node" attr.name="elevation" attr.type="string"/>
+<key id="d6" for="node" attr.name="street_count" attr.type="string"/>
+<key id="d5" for="node" attr.name="x" attr.type="string"/>
+<key id="d4" for="node" attr.name="y" attr.type="string"/>
+<key id="d3" for="graph" attr.name="simplified" attr.type="string"/>
+<key id="d2" for="graph" attr.name="crs" attr.type="string"/>
+<key id="d1" for="graph" attr.name="created_with" attr.type="string"/>
+<key id="d0" for="graph" attr.name="created_date" attr.type="string"/>
+<graph edgedefault="directed"><data key="d0">2022-12-14 02:05:26</data>
+<data key="d1">OSMnx 1.2.2</data>
+<data key="d2">epsg:4326</data>
+<data key="d3">True</data>
+<node id="159474076">
+  <data key="d4">14.6005095</data>
+  <data key="d5">120.9755228</data>
+  <data key="d6">4</data>
+  <data key="d7">4.0</data>
+</node>
+<node id="159474617">
+  <data key="d4">14.6006628</data>
+  <data key="d5">120.9757179</data>
+  <data key="d6">3</data>
+  <data key="d7">4.0</data>
+</node>
+<node id="400788842">
+  <data key="d4">14.6011782</data>
+  <data key="d5">120.9750366</data>
+  <data key="d6">3</data>
+  <data key="d7">2.801</data>
+</node>
+<node id="1247885283">
+  <data key="d4">14.6013706</data>
+  <data key="d5">120.9749159</data>
+  <data key="d6">1</data>
+  <data key="d7">3.802</data>
+</node>
+<node id="1732972015">
+  <data key="d4">14.6008142</data>
+  <data key="d5">120.9752899</data>
+  <data key="d6">3</data>
+  <data key="d7">3.985</data>
+</node>
+<edge source="159474076" target="159474617" id="0">
+  <data key="d8">1078863282</data>
+  <data key="d9">True</data>
+  <data key="d10">2</data>
+  <data key="d11">Ongpin Street</data>
+  <data key="d12">tertiary</data>
+  <data key="d13">30</data>
+  <data key="d14">False</data>
+  <data key="d15">27.043</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.0</data>
+</edge>
+<edge source="400788842" target="1732972015" id="0">
+  <data key="d8">794341799</data>
+  <data key="d9">True</data>
+  <data key="d10">2</data>
+  <data key="d11">E. T. Yuchengco Street</data>
+  <data key="d12">residential</data>
+  <data key="d13">30</data>
+  <data key="d14">False</data>
+  <data key="d15">48.797</data>
+  <data key="d16">0.024</data>
+  <data key="d17">0.024</data>
+</edge>
+<edge source="400788842" target="1247885283" id="0">
+  <data key="d8">1076481177</data>
+  <data key="d10">2</data>
+  <data key="d11">E. T. Yuchengco Street</data>
+  <data key="d12">residential</data>
+  <data key="d13">30</data>
+  <data key="d9">False</data>
+  <data key="d14">False</data>
+  <data key="d15">25.028</data>
+  <data key="d16">0.04</data>
+  <data key="d17">0.04</data>
+</edge>
+<edge source="1247885283" target="400788842" id="0">
+  <data key="d8">1076481177</data>
+  <data key="d10">2</data>
+  <data key="d11">E. T. Yuchengco Street</data>
+  <data key="d12">residential</data>
+  <data key="d13">30</data>
+  <data key="d9">False</data>
+  <data key="d14">True</data>
+  <data key="d15">25.028</data>
+  <data key="d16">-0.04</data>
+  <data key="d17">0.04</data>
+</edge>
+<edge source="1732972015" target="159474076" id="0">
+  <data key="d8">161306426</data>
+  <data key="d9">True</data>
+  <data key="d10">1</data>
+  <data key="d11">E. T. Yuchengco Street</data>
+  <data key="d12">residential</data>
+  <data key="d13">30</data>
+  <data key="d14">False</data>
+  <data key="d15">42.142</data>
+  <data key="d16">0.0</data>
+  <data key="d17">0.0</data>
+</edge>
+</graph></graphml>

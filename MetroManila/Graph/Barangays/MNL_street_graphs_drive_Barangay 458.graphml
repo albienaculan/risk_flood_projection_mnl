@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d21" for="edge" attr.name="width" attr.type="string"/>
+<key id="d20" for="edge" attr.name="ref" attr.type="string"/>
+<key id="d19" for="edge" attr.name="grade_abs" attr.type="string"/>
+<key id="d18" for="edge" attr.name="grade" attr.type="string"/>
+<key id="d17" for="edge" attr.name="geometry" attr.type="string"/>
+<key id="d16" for="edge" attr.name="length" attr.type="string"/>
+<key id="d15" for="edge" attr.name="reversed" attr.type="string"/>
+<key id="d14" for="edge" attr.name="oneway" attr.type="string"/>
+<key id="d13" for="edge" attr.name="maxspeed" attr.type="string"/>
+<key id="d12" for="edge" attr.name="highway" attr.type="string"/>
+<key id="d11" for="edge" attr.name="name" attr.type="string"/>
+<key id="d10" for="edge" attr.name="lanes" attr.type="string"/>
+<key id="d9" for="edge" attr.name="osmid" attr.type="string"/>
+<key id="d8" for="node" attr.name="elevation" attr.type="string"/>
+<key id="d7" for="node" attr.name="street_count" attr.type="string"/>
+<key id="d6" for="node" attr.name="highway" attr.type="string"/>
+<key id="d5" for="node" attr.name="x" attr.type="string"/>
+<key id="d4" for="node" attr.name="y" attr.type="string"/>
+<key id="d3" for="graph" attr.name="simplified" attr.type="string"/>
+<key id="d2" for="graph" attr.name="crs" attr.type="string"/>
+<key id="d1" for="graph" attr.name="created_with" attr.type="string"/>
+<key id="d0" for="graph" attr.name="created_date" attr.type="string"/>
+<graph edgedefault="directed"><data key="d0">2022-12-14 03:57:58</data>
+<data key="d1">OSMnx 1.2.2</data>
+<data key="d2">epsg:4326</data>
+<data key="d3">True</data>
+<node id="59739389">
+  <data key="d4">14.6067195</data>
+  <data key="d5">120.9894405</data>
+  <data key="d6">traffic_signals</data>
+  <data key="d7">4</data>
+  <data key="d8">2.086</data>
+</node>
+<node id="68073698">
+  <data key="d4">14.6066331</data>
+  <data key="d5">120.9895204</data>
+  <data key="d6">traffic_signals</data>
+  <data key="d7">4</data>
+  <data key="d8">1.933</data>
+</node>
+<node id="68073905">
+  <data key="d4">14.6071157</data>
+  <data key="d5">120.9900478</data>
+  <data key="d7">3</data>
+  <data key="d8">2.038</data>
+</node>
+<edge source="59739389" target="68073698" id="0">
+  <data key="d9">[97047523, 604094399]</data>
+  <data key="d10">2</data>
+  <data key="d11">Padre Noval Street</data>
+  <data key="d12">secondary</data>
+  <data key="d13">30</data>
+  <data key="d14">False</data>
+  <data key="d15">False</data>
+  <data key="d16">12.893</data>
+  <data key="d17">LINESTRING (120.9894405 14.6067195, 120.9894767 14.6066803, 120.9895204 14.6066331)</data>
+  <data key="d18">-0.012</data>
+  <data key="d19">0.012</data>
+</edge>
+<edge source="68073698" target="68073905" id="0">
+  <data key="d9">123906716</data>
+  <data key="d14">True</data>
+  <data key="d10">4</data>
+  <data key="d20">170</data>
+  <data key="d11">España Boulevard</data>
+  <data key="d12">primary</data>
+  <data key="d13">60</data>
+  <data key="d21">11.1</data>
+  <data key="d15">False</data>
+  <data key="d16">78.103</data>
+  <data key="d18">0.001</data>
+  <data key="d19">0.001</data>
+</edge>
+<edge source="68073698" target="59739389" id="0">
+  <data key="d9">[97047523, 604094399]</data>
+  <data key="d10">2</data>
+  <data key="d11">Padre Noval Street</data>
+  <data key="d12">secondary</data>
+  <data key="d13">30</data>
+  <data key="d14">False</data>
+  <data key="d15">True</data>
+  <data key="d16">12.893</data>
+  <data key="d17">LINESTRING (120.9895204 14.6066331, 120.9894767 14.6066803, 120.9894405 14.6067195)</data>
+  <data key="d18">0.012</data>
+  <data key="d19">0.012</data>
+</edge>
+</graph></graphml>

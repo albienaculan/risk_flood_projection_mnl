@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d16" for="edge" attr.name="lanes" attr.type="string"/>
+<key id="d15" for="edge" attr.name="grade_abs" attr.type="string"/>
+<key id="d14" for="edge" attr.name="grade" attr.type="string"/>
+<key id="d13" for="edge" attr.name="length" attr.type="string"/>
+<key id="d12" for="edge" attr.name="reversed" attr.type="string"/>
+<key id="d11" for="edge" attr.name="oneway" attr.type="string"/>
+<key id="d10" for="edge" attr.name="highway" attr.type="string"/>
+<key id="d9" for="edge" attr.name="name" attr.type="string"/>
+<key id="d8" for="edge" attr.name="osmid" attr.type="string"/>
+<key id="d7" for="node" attr.name="elevation" attr.type="string"/>
+<key id="d6" for="node" attr.name="street_count" attr.type="string"/>
+<key id="d5" for="node" attr.name="x" attr.type="string"/>
+<key id="d4" for="node" attr.name="y" attr.type="string"/>
+<key id="d3" for="graph" attr.name="simplified" attr.type="string"/>
+<key id="d2" for="graph" attr.name="crs" attr.type="string"/>
+<key id="d1" for="graph" attr.name="created_with" attr.type="string"/>
+<key id="d0" for="graph" attr.name="created_date" attr.type="string"/>
+<graph edgedefault="directed"><data key="d0">2022-12-14 03:31:10</data>
+<data key="d1">OSMnx 1.2.2</data>
+<data key="d2">epsg:4326</data>
+<data key="d3">True</data>
+<node id="73002238">
+  <data key="d4">14.6036207</data>
+  <data key="d5">121.0047487</data>
+  <data key="d6">3</data>
+  <data key="d7">5.995</data>
+</node>
+<node id="73003288">
+  <data key="d4">14.6038759</data>
+  <data key="d5">121.0041652</data>
+  <data key="d6">3</data>
+  <data key="d7">4.024</data>
+</node>
+<node id="73003768">
+  <data key="d4">14.6027831</data>
+  <data key="d5">121.0050491</data>
+  <data key="d6">3</data>
+  <data key="d7">7.039</data>
+</node>
+<node id="73004263">
+  <data key="d4">14.6039427</data>
+  <data key="d5">121.0043463</data>
+  <data key="d6">3</data>
+  <data key="d7">4.911</data>
+</node>
+<node id="73004265">
+  <data key="d4">14.6037284</data>
+  <data key="d5">121.003714</data>
+  <data key="d6">4</data>
+  <data key="d7">4.926</data>
+</node>
+<node id="6255195529">
+  <data key="d4">14.6034442</data>
+  <data key="d5">121.0038152</data>
+  <data key="d6">3</data>
+  <data key="d7">5.145</data>
+</node>
+<edge source="73002238" target="73004263" id="0">
+  <data key="d8">9495415</data>
+  <data key="d9">Paltoc Street</data>
+  <data key="d10">residential</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">56.186</data>
+  <data key="d14">-0.019</data>
+  <data key="d15">0.019</data>
+</edge>
+<edge source="73002238" target="73003768" id="0">
+  <data key="d8">9495515</data>
+  <data key="d9">Alegria Street</data>
+  <data key="d10">residential</data>
+  <data key="d11">False</data>
+  <data key="d12">True</data>
+  <data key="d13">98.587</data>
+  <data key="d14">0.011</data>
+  <data key="d15">0.011</data>
+</edge>
+<edge source="73003288" target="73004265" id="0">
+  <data key="d8">160192350</data>
+  <data key="d9">Mithi Street</data>
+  <data key="d10">residential</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">51.246</data>
+  <data key="d14">0.018</data>
+  <data key="d15">0.018</data>
+</edge>
+<edge source="73003288" target="73004263" id="0">
+  <data key="d8">160192350</data>
+  <data key="d9">Mithi Street</data>
+  <data key="d10">residential</data>
+  <data key="d11">False</data>
+  <data key="d12">True</data>
+  <data key="d13">20.854</data>
+  <data key="d14">0.043</data>
+  <data key="d15">0.043</data>
+</edge>
+<edge source="73003768" target="73002238" id="0">
+  <data key="d8">9495515</data>
+  <data key="d9">Alegria Street</data>
+  <data key="d10">residential</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">98.587</data>
+  <data key="d14">-0.011</data>
+  <data key="d15">0.011</data>
+</edge>
+<edge source="73004263" target="73002238" id="0">
+  <data key="d8">9495415</data>
+  <data key="d9">Paltoc Street</data>
+  <data key="d10">residential</data>
+  <data key="d11">False</data>
+  <data key="d12">True</data>
+  <data key="d13">56.186</data>
+  <data key="d14">0.019</data>
+  <data key="d15">0.019</data>
+</edge>
+<edge source="73004263" target="73003288" id="0">
+  <data key="d8">160192350</data>
+  <data key="d9">Mithi Street</data>
+  <data key="d10">residential</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">20.854</data>
+  <data key="d14">-0.043</data>
+  <data key="d15">0.043</data>
+</edge>
+<edge source="73004265" target="6255195529" id="0">
+  <data key="d8">126342417</data>
+  <data key="d16">2</data>
+  <data key="d9">Pureza Street</data>
+  <data key="d10">tertiary</data>
+  <data key="d11">False</data>
+  <data key="d12">True</data>
+  <data key="d13">33.425</data>
+  <data key="d14">0.007</data>
+  <data key="d15">0.007</data>
+</edge>
+<edge source="73004265" target="73003288" id="0">
+  <data key="d8">160192350</data>
+  <data key="d9">Mithi Street</data>
+  <data key="d10">residential</data>
+  <data key="d11">False</data>
+  <data key="d12">True</data>
+  <data key="d13">51.246</data>
+  <data key="d14">-0.018</data>
+  <data key="d15">0.018</data>
+</edge>
+<edge source="6255195529" target="73004265" id="0">
+  <data key="d8">126342417</data>
+  <data key="d16">2</data>
+  <data key="d9">Pureza Street</data>
+  <data key="d10">tertiary</data>
+  <data key="d11">False</data>
+  <data key="d12">False</data>
+  <data key="d13">33.425</data>
+  <data key="d14">-0.007</data>
+  <data key="d15">0.007</data>
+</edge>
+</graph></graphml>

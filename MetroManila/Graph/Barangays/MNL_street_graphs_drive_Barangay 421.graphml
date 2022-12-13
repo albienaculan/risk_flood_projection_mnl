@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d20" for="edge" attr.name="grade_abs" attr.type="string"/>
+<key id="d19" for="edge" attr.name="grade" attr.type="string"/>
+<key id="d18" for="edge" attr.name="geometry" attr.type="string"/>
+<key id="d17" for="edge" attr.name="length" attr.type="string"/>
+<key id="d16" for="edge" attr.name="reversed" attr.type="string"/>
+<key id="d15" for="edge" attr.name="oneway" attr.type="string"/>
+<key id="d14" for="edge" attr.name="width" attr.type="string"/>
+<key id="d13" for="edge" attr.name="maxspeed" attr.type="string"/>
+<key id="d12" for="edge" attr.name="highway" attr.type="string"/>
+<key id="d11" for="edge" attr.name="name" attr.type="string"/>
+<key id="d10" for="edge" attr.name="lanes" attr.type="string"/>
+<key id="d9" for="edge" attr.name="osmid" attr.type="string"/>
+<key id="d8" for="node" attr.name="elevation" attr.type="string"/>
+<key id="d7" for="node" attr.name="street_count" attr.type="string"/>
+<key id="d6" for="node" attr.name="highway" attr.type="string"/>
+<key id="d5" for="node" attr.name="x" attr.type="string"/>
+<key id="d4" for="node" attr.name="y" attr.type="string"/>
+<key id="d3" for="graph" attr.name="simplified" attr.type="string"/>
+<key id="d2" for="graph" attr.name="crs" attr.type="string"/>
+<key id="d1" for="graph" attr.name="created_with" attr.type="string"/>
+<key id="d0" for="graph" attr.name="created_date" attr.type="string"/>
+<graph edgedefault="directed"><data key="d0">2022-12-14 02:11:16</data>
+<data key="d1">OSMnx 1.2.2</data>
+<data key="d2">epsg:4326</data>
+<data key="d3">True</data>
+<node id="29487849">
+  <data key="d4">14.6052107</data>
+  <data key="d5">121.0002943</data>
+  <data key="d6">traffic_signals</data>
+  <data key="d7">4</data>
+  <data key="d8">3.275</data>
+</node>
+<node id="73004527">
+  <data key="d4">14.6054237</data>
+  <data key="d5">121.0005982</data>
+  <data key="d7">4</data>
+  <data key="d8">2.928</data>
+</node>
+<node id="1455687717">
+  <data key="d4">14.6047549</data>
+  <data key="d5">120.9996839</data>
+  <data key="d7">3</data>
+  <data key="d8">5.935</data>
+</node>
+<edge source="29487849" target="73004527" id="0">
+  <data key="d9">832779568</data>
+  <data key="d10">2</data>
+  <data key="d11">G. Tuazon Street</data>
+  <data key="d12">secondary</data>
+  <data key="d13">40</data>
+  <data key="d14">9</data>
+  <data key="d15">False</data>
+  <data key="d16">False</data>
+  <data key="d17">40.376999999999995</data>
+  <data key="d18">LINESTRING (121.0002943 14.6052107, 121.0004507 14.6053215, 121.0005982 14.6054237)</data>
+  <data key="d19">-0.009</data>
+  <data key="d20">0.009</data>
+</edge>
+<edge source="29487849" target="1455687717" id="0">
+  <data key="d9">832779570</data>
+  <data key="d10">2</data>
+  <data key="d11">G. Tuazon Street</data>
+  <data key="d12">secondary</data>
+  <data key="d13">40</data>
+  <data key="d14">9</data>
+  <data key="d15">False</data>
+  <data key="d16">True</data>
+  <data key="d17">82.971</data>
+  <data key="d18">LINESTRING (121.0002943 14.6052107, 120.9999917 14.6049827, 120.9998807 14.6048959, 120.9996839 14.6047549)</data>
+  <data key="d19">0.032</data>
+  <data key="d20">0.032</data>
+</edge>
+<edge source="73004527" target="29487849" id="0">
+  <data key="d9">832779568</data>
+  <data key="d10">2</data>
+  <data key="d11">G. Tuazon Street</data>
+  <data key="d12">secondary</data>
+  <data key="d13">40</data>
+  <data key="d14">9</data>
+  <data key="d15">False</data>
+  <data key="d16">True</data>
+  <data key="d17">40.376999999999995</data>
+  <data key="d18">LINESTRING (121.0005982 14.6054237, 121.0004507 14.6053215, 121.0002943 14.6052107)</data>
+  <data key="d19">0.009</data>
+  <data key="d20">0.009</data>
+</edge>
+<edge source="1455687717" target="29487849" id="0">
+  <data key="d9">832779570</data>
+  <data key="d10">2</data>
+  <data key="d11">G. Tuazon Street</data>
+  <data key="d12">secondary</data>
+  <data key="d13">40</data>
+  <data key="d14">9</data>
+  <data key="d15">False</data>
+  <data key="d16">False</data>
+  <data key="d17">82.971</data>
+  <data key="d18">LINESTRING (120.9996839 14.6047549, 120.9998807 14.6048959, 120.9999917 14.6049827, 121.0002943 14.6052107)</data>
+  <data key="d19">-0.032</data>
+  <data key="d20">0.032</data>
+</edge>
+</graph></graphml>

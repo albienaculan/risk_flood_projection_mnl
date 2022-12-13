@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d18" for="edge" attr.name="grade_abs" attr.type="string"/>
+<key id="d17" for="edge" attr.name="grade" attr.type="string"/>
+<key id="d16" for="edge" attr.name="length" attr.type="string"/>
+<key id="d15" for="edge" attr.name="reversed" attr.type="string"/>
+<key id="d14" for="edge" attr.name="oneway" attr.type="string"/>
+<key id="d13" for="edge" attr.name="maxspeed" attr.type="string"/>
+<key id="d12" for="edge" attr.name="highway" attr.type="string"/>
+<key id="d11" for="edge" attr.name="name" attr.type="string"/>
+<key id="d10" for="edge" attr.name="lanes" attr.type="string"/>
+<key id="d9" for="edge" attr.name="osmid" attr.type="string"/>
+<key id="d8" for="node" attr.name="highway" attr.type="string"/>
+<key id="d7" for="node" attr.name="elevation" attr.type="string"/>
+<key id="d6" for="node" attr.name="street_count" attr.type="string"/>
+<key id="d5" for="node" attr.name="x" attr.type="string"/>
+<key id="d4" for="node" attr.name="y" attr.type="string"/>
+<key id="d3" for="graph" attr.name="simplified" attr.type="string"/>
+<key id="d2" for="graph" attr.name="crs" attr.type="string"/>
+<key id="d1" for="graph" attr.name="created_with" attr.type="string"/>
+<key id="d0" for="graph" attr.name="created_date" attr.type="string"/>
+<graph edgedefault="directed"><data key="d0">2022-12-14 01:29:34</data>
+<data key="d1">OSMnx 1.2.2</data>
+<data key="d2">epsg:4326</data>
+<data key="d3">True</data>
+<node id="43097195">
+  <data key="d4">14.6144118</data>
+  <data key="d5">120.9934892</data>
+  <data key="d6">4</data>
+  <data key="d7">2.725</data>
+</node>
+<node id="67784685">
+  <data key="d4">14.6139308</data>
+  <data key="d5">120.9929595</data>
+  <data key="d8">traffic_signals</data>
+  <data key="d6">4</data>
+  <data key="d7">2.748</data>
+</node>
+<node id="68123099">
+  <data key="d4">14.6141761</data>
+  <data key="d5">120.9932282</data>
+  <data key="d6">4</data>
+  <data key="d7">2.805</data>
+</node>
+<node id="68123863">
+  <data key="d4">14.6136791</data>
+  <data key="d5">120.9926874</data>
+  <data key="d6">4</data>
+  <data key="d7">2.852</data>
+</node>
+<edge source="43097195" target="68123099" id="0">
+  <data key="d9">241409767</data>
+  <data key="d10">2</data>
+  <data key="d11">Piy Margal Street</data>
+  <data key="d12">tertiary</data>
+  <data key="d13">30</data>
+  <data key="d14">False</data>
+  <data key="d15">True</data>
+  <data key="d16">38.413</data>
+  <data key="d17">0.002</data>
+  <data key="d18">0.002</data>
+</edge>
+<edge source="67784685" target="68123099" id="0">
+  <data key="d9">241409767</data>
+  <data key="d10">2</data>
+  <data key="d11">Piy Margal Street</data>
+  <data key="d12">tertiary</data>
+  <data key="d13">30</data>
+  <data key="d14">False</data>
+  <data key="d15">False</data>
+  <data key="d16">39.747</data>
+  <data key="d17">0.001</data>
+  <data key="d18">0.001</data>
+</edge>
+<edge source="67784685" target="68123863" id="0">
+  <data key="d9">241409767</data>
+  <data key="d10">2</data>
+  <data key="d11">Piy Margal Street</data>
+  <data key="d12">tertiary</data>
+  <data key="d13">30</data>
+  <data key="d14">False</data>
+  <data key="d15">True</data>
+  <data key="d16">40.503</data>
+  <data key="d17">0.003</data>
+  <data key="d18">0.003</data>
+</edge>
+<edge source="68123099" target="43097195" id="0">
+  <data key="d9">241409767</data>
+  <data key="d10">2</data>
+  <data key="d11">Piy Margal Street</data>
+  <data key="d12">tertiary</data>
+  <data key="d13">30</data>
+  <data key="d14">False</data>
+  <data key="d15">False</data>
+  <data key="d16">38.413</data>
+  <data key="d17">-0.002</data>
+  <data key="d18">0.002</data>
+</edge>
+<edge source="68123099" target="67784685" id="0">
+  <data key="d9">241409767</data>
+  <data key="d10">2</data>
+  <data key="d11">Piy Margal Street</data>
+  <data key="d12">tertiary</data>
+  <data key="d13">30</data>
+  <data key="d14">False</data>
+  <data key="d15">True</data>
+  <data key="d16">39.747</data>
+  <data key="d17">-0.001</data>
+  <data key="d18">0.001</data>
+</edge>
+<edge source="68123863" target="67784685" id="0">
+  <data key="d9">241409767</data>
+  <data key="d10">2</data>
+  <data key="d11">Piy Margal Street</data>
+  <data key="d12">tertiary</data>
+  <data key="d13">30</data>
+  <data key="d14">False</data>
+  <data key="d15">False</data>
+  <data key="d16">40.503</data>
+  <data key="d17">-0.003</data>
+  <data key="d18">0.003</data>
+</edge>
+</graph></graphml>
