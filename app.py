@@ -18,7 +18,7 @@ import numpy as np
 import osmnx as ox
 import geopandas as gpd
 import pandas as pd
-from streamlit_folium import st_folium
+from streamlit_folium import st_folium, folium_static
 import calplot
 
 
@@ -175,7 +175,7 @@ with st.container():
         routes = routes.set_geometry("geometry")
         
         return routes
-    @st.cache
+    
     def plotEssentials(barangay, data, network):
         destinations, dictionary_of_essentials, dictionary_of_point = getNearestEssentials(barangay, data)
         
@@ -235,13 +235,14 @@ with st.container():
 
     barangay = st.text_input("Enter the barangay here: ", key="barangay")
     
+
     m1 = plotEssentials(barangay, data, "drive")
     
     if 'barangay' not in st.session_state:
         st.session_state.m1
 
 
-    st_data2 = st_folium(m1)
+    folium_static(m1)
     
         
         
