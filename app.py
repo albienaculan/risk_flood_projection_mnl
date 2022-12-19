@@ -175,7 +175,7 @@ with st.container():
         routes = routes.set_geometry("geometry")
         
         return routes
-
+    @st.cache
     def plotEssentials(barangay, data, network):
         destinations, dictionary_of_essentials, dictionary_of_point = getNearestEssentials(barangay, data)
         
@@ -234,7 +234,7 @@ with st.container():
         data[key].set_geometry("geometry", inplace=True)
 
     barangay = st.text_input("Enter the barangay here: ", key="barangay")
-
+    
     m1 = plotEssentials(barangay, data, "drive")
     
     if 'barangay' not in st.session_state:
