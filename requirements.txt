@@ -1,0 +1,12 @@
+calplot==0.1.7.5
+folium==0.14.0
+geopandas==0.13.2
+matplotlib==3.5.2
+networkx==2.8.4
+numpy==1.22.4
+osmnx==1.5.1
+pandas==1.4.4
+pyproj==3.6.0
+Shapely==2.0.1
+streamlit==1.24.1
+streamlit_folium==0.13.0
