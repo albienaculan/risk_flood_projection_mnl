@@ -119,11 +119,11 @@ with st.container():
     def shortest_path(origin, destination, network):
     
         if network == "drive":
-            graph = ox.io.load_graphml(filepath=r'C:\Users\albie\OneDrive\Desktop\Flood_NOAH\MetroManila\Graph\Initial_Graph\MNL_street_graphs_drive.graphml')
+            graph = ox.io.load_graphml(filepath=r'./MetroManila/Graph/Initial_Graph/MNL_street_graphs_drive.graphml')
         elif network == "bike":
-            graph = ox.io.load_graphml(filepath=r'C:\Users\albie\OneDrive\Desktop\Flood_NOAH\MetroManila\Graph\Initial_Graph\MNL_street_graphs_bike.graphml')
+            graph = ox.io.load_graphml(filepath=r'./MetroManila/Graph/Initial_Graph/MNL_street_graphs_bike.graphml')
         elif network == "walk":
-            graph = ox.io.load_graphml(filepath=r'C:\Users\albie\OneDrive\Desktop\Flood_NOAH\MetroManila\Graph\Initial_Graph\MNL_street_graphs_walk.graphml')
+            graph = ox.io.load_graphml(filepath=r'./MetroManila/Graph/Initial_Graph/MNL_street_graphs_walk.graphml')
 
         graph_proj = ox.project_graph(graph, to_crs="4326")
         
