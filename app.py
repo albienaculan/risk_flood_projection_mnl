@@ -25,7 +25,7 @@ import calplot
 ox.config(log_console=True, use_cache=True)
 ox.__version__
 
-"st.session_state object: ", st.session_state
+# "st.session_state object: ", st.session_state
 
 # st.set_page_config(page_title="Manila Risk Precipitation")
 
