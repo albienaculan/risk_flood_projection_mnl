@@ -236,13 +236,16 @@ with st.container():
     barangay = st.text_input("Enter the barangay here: ", key="barangay")
     
 
-    m1 = plotEssentials(barangay, data, "drive")
+    try:
+        m1 = plotEssentials(barangay, data, "drive")
     
-    if 'barangay' not in st.session_state:
-        st.session_state.m1
+        if 'barangay' not in st.session_state:
+            st.session_state.m1
 
 
-    folium_static(m1)
+        folium_static(m1)
+    except:
+        None
     
         
         
